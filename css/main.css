@@ -1,0 +1,23 @@
+/* Create default */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Make things block */
+/* For browsers compatibility */
+header, nav, section, aside, footer, article, hgroup{
+    display: block;
+}
+
+body {
+    text-align: center;
+    background-color: green;
+}
+
+#main_wrapper {
+    border: 5px solid blue;
+    width: 1000px;
+    margin: 20px auto;
+    text-align: left;
+}
