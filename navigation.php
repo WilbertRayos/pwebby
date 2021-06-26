@@ -1,8 +1,3 @@
-<?php
- var nav = "index";
-
-
-?>
 
 <!DOCTYPE html>
 <html>

@@ -5,22 +5,23 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+<body onload="go_home()">
 
     <div id="main_wrapper">
         <!-- <header id="top_header">
             <?php require "header.php"?>
         </header> -->
         <nav id="menubar">
-            <li><a href="#" id="index" onclick="wews()">Home</a></li>
-            <li><a href="certificates.php">Certificates</a></li>
-            <li><a href="downloads.php">downloads</a></li>
-            <li><a href="contacts.php">contacts</a></li>
+            <li><a href="#" id="home" onclick="go_home()">Home</a></li>
+            <li><a href="#" id="about" onclick="go_about()">About Me</a></li>
+            <li><a href="#" id="certificates" onclick="go_certificates()">Certificates</a></li>
+            <li><a href="#" id="contacts" onclick="go_contacts()">contacts</a></li>
         </nav>
         <section id="main_section">
-            <button type="button" id="btn_hide_nav" onclick="hide_navigation()">Hide Navigation</button>
             <article>
                 <header>
                    <hgroup>
@@ -34,26 +35,17 @@
                 </footer>
             </article>
         </section>
-        <aside id="side_section">
+        <!-- <aside id="side_section">
             This is sidebar
-        </aside>
-        <footer id="footer">
-            This is footer
-        </footer>
-    </div>
+        </aside> -->
 
+    </div>
+    <footer id="footer">
+            <?php require "footer.php"?>
+        </footer>
     <script type="text/javascript">
-        function wews(){
-            $(document).ready(function(){
-                $("#main_section").load("header.php");
-            });
-        }
-        // document.getElementById("index").click(function(){
-        //     alert(1);
-        //     $(document).ready(function(){
-        //         $("#main_section").css("backgroun-color","blue");
-        //     });
-        // });
+
+
 
     </script>
 </body>

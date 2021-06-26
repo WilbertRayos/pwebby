@@ -1,5 +1,5 @@
 nav {
-    background-color: violet;
+    background-color: #d9d9d9;
     text-align: left;
 }
 
@@ -7,10 +7,12 @@ nav li {
     list-style-type: none;
     display: inline-block;
     position: relative;
-    margin-right: -40px;
+    /* margin-right: -40px; */
     /*border: 2px solid green;*/
     padding: 15px;
     font-family: Helvetica, sans-serif;
+    /* background-color: azure; */
+    border-radius: 5px 5px 0px 0px;
 }
 
 nav li a:link, a:visited {
@@ -19,11 +21,11 @@ nav li a:link, a:visited {
     text-decoration: none;
 }
 
-nav li a:hover {
-    background-color: red;
-    padding: 20px;
+nav li:hover {
+    background-color: #9575CD;
+    padding: 15px;
 }
 
 nav li a:active {
-
+    
 }
