@@ -1,0 +1,51 @@
+#contact_content {
+    margin: auto;
+    width: 500px;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 50px;
+    margin: 10px auto;
+}
+#submit {
+    width: 20px;
+    background-color: blue;
+}
+
+#contact_header {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#contact_header h2 {
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+#contact_header h3 {
+    font-style: italic;
+}
+
+#contact_body form * {
+    display: block;
+    background-color:red;
+    margin: 5px;
+    width: 100%;
+}
+
+#contact_body form label {
+    font-family: questrial;
+    font-size: 20px;
+    /*padding: 5px;*/
+}
+
+#contact_body form input {
+    font-size: 20px;
+    /*padding: 5px;*/
+}
+
+textarea {
+    height: 50px;
+}
+
+
