@@ -1,0 +1,17 @@
+{
+    "work_1": {
+        "logo":"logo-link",
+        "job_description": "Intern",
+        "company_name":"LGU of San Jose del Monte Bulacan",
+        "duration":"September 2019 - March 2020",
+        "tasks": ["a","b","c","d"]
+    },
+    "work_2": {
+        "logo": "sample-ntc-logo",
+        "job_description": "Job Order/Data Encoder",
+        "company_name": "National Telecommunications Commission",
+        "duration": "February 2021 - Present",
+        "tasks": ["a<br />","b<br />","c<br />","d<br />"]
+    }
+
+}

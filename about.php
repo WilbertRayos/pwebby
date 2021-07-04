@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/about.css">
+    <!-- <script type="text/javascript" src="samp.json"></script> -->
     <script type="text/javascript" src="js/about.js"></script>
 </head>
 <body>
@@ -57,8 +58,8 @@
                 <a href="#" class="accordion-toggle">Work Experiences</a>
                 <div class="accordion-content">
                     <div class="mini_sections">
-                        <table>
-                            <tr style="background-color: blue;">
+                        <table id="work_experiences">
+                            <!-- <tr style="background-color: blue;">
                                 <td rowspan="5" >NTC logo</td>
                                 <td>Job Order/Data Encoder</td>
                             </tr>
@@ -73,7 +74,7 @@
                             </tr>
                             <tr>
                                 <td>sadasd</td>
-                            </tr>
+                            </tr> -->
                         </table>
                     </div>
                 </div>
@@ -98,5 +99,11 @@
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        // json_init();
+
+
+    </script>
 </body>
 </html>
