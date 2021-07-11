@@ -10,22 +10,24 @@ $("document").ready(function(){
         accordion.toggleClass("open");
         accordionContent.slideToggle(250);
 
-        json_init();
+
+        init_work_experiences();
+        init_education();
+        init_technical_skills();
+        return false;
     });
 });
 
 
 // VANILLA JAVASCRIPT
 
-function json_init() {
-    fetch("./json/information.json")
+function init_work_experiences() {
+    fetch("./json/work_experiences.json")
         .then(response => response.json())
         .then(data => {
-            // console.log(data);
-            // work_experiences(data);
-                var samp_text = "";
+                var table_content = "";
                 for(var key in data) {
-                    samp_text +=
+                    table_content +=
                     "<tr style='background-color: blue;'>"+
                         "<td rowspan='4'>"+data[key].logo+"</td>"+
                         "<td>"+data[key].job_description+"</td>"+
@@ -40,22 +42,43 @@ function json_init() {
                         "<td>"+data[key].tasks+"</td>"+
                     "</tr>";
                 }
-                console.log(samp_text);
                 document.getElementById("work_experiences")
-                    .innerHTML = samp_text;
-
-
+                    .innerHTML = table_content;
         })
 }
 
-// function work_experiences(data) {
-//     for(var key in data){
-//         document.getElementById("work_experiences").innerHTML =
-//             "<tr>"
-//                 "<td>"
-//                     data[key].logo
-//                 "</td>"
-//             "</tr>"
+function init_education() {
+    fetch("./json/education.json")
+        .then(response => response.json())
+        .then(data => {
+                var table_content = "";
+                for(var key in data) {
+                    table_content +=
+                    "<tr style='background-color: blue;'>"+
+                        "<td rowspan='3'>"+data[key].logo+"</td>"+
+                        "<td>"+data[key].school_name+"</td>"+
+                    "</tr>"+
+                    "<tr>"+
+                        "<td>"+data[key].grade+"</td>"+
+                    "</tr>"+
+                    "<tr>"+
+                        "<td>"+data[key].duration+"</td>"+
+                    "</tr>"
+                }
+                document.getElementById("education")
+                    .innerHTML = table_content;
+        })
+}
 
-//     }
-// }
+function init_technical_skills() {
+    fetch("./json/technical_skill.json")
+        .then(response => response.json())
+        .then(data => {
+            for(var x in data){
+                var temp1 = data[x];
+                for(var y in temp1) {
+                    console.log(y);
+                }
+            }
+        });
+}

@@ -12,28 +12,36 @@
                 <img src="img/profile_picture.png" class="single_side" />
             </div>
             <div id="contact_information_section">
-                <table>
-                <tr>
-                    <td>Logo 1</td>
-                    <td>Email</td>
-                </tr>
-                <tr>
-                    <td>Logo 2</td>
-                    <td>Facebook</td>
-                </tr>
-                <tr>
-                    <td>Logo 3</td>
-                    <td>Linked In</td>
-                </tr>
-                <tr>
-                    <td>Logo 4</td>
-                    <td>Github</td>
-                </tr>
-                <tr>
-                    <td>Logo 5</td>
-                    <td>Contact Number</td>
-                </tr>
-            </table>
+                <ul>
+                    <li><a href="#"><span>asd</span>wilbertraymundrayos@gmail.com</a></li>
+                    <li><a href="#"><span>asd</span>Facebook</a></li>
+                    <li><a href="#"><span>asd</span>LinkedIn</a></li>
+                    <li><a href="#"><span>asd</span>Github</a></li>
+                    <li><a href="#"><span>asd</span>Contact Number</a></li>
+                </ul>
+                <!-- <button type="button"><span>asd</span><a href="#">@gmail.com</button> -->
+                <!-- table>
+                    <tr>
+                        <td>Logo 1</td>
+                        <td><a href="">wilbertraymundrayos@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Logo 2</td>
+                        <td><a href="facebook.com">Facebook</a></td>
+                    </tr>
+                    <tr>
+                        <td>Logo 3</td>
+                        <td><a href="">LinkedIn</a></td>
+                    </tr>
+                    <tr>
+                        <td>Logo 4</td>
+                        <td><a href="">Github</a></td>
+                    </tr>
+                    <tr>
+                        <td>Logo 5</td>
+                        <td><a href="">Contact Number</a></td>
+                    </tr>
+                </table> -->
             </div>
 
         </div>
@@ -58,31 +66,14 @@
                 <a href="#" class="accordion-toggle">Work Experiences</a>
                 <div class="accordion-content">
                     <div class="mini_sections">
-                        <table id="work_experiences">
-                            <!-- <tr style="background-color: blue;">
-                                <td rowspan="5" >NTC logo</td>
-                                <td>Job Order/Data Encoder</td>
-                            </tr>
-                            <tr>
-                                <td>National Telecommunications Commission</td>
-                            </tr>
-                            <tr>
-                                <td>February 2021 - Present</td>
-                            </tr>
-                            <tr>
-                                <td>Tasks and Responsibilities</td>
-                            </tr>
-                            <tr>
-                                <td>sadasd</td>
-                            </tr> -->
-                        </table>
+                        <table id="work_experiences"></table>
                     </div>
                 </div>
             </div>
             <div class="accordion-body">
                 <a href="#" class="accordion-toggle">Education</a>
                 <div class="accordion-content">
-                    content1
+                    <table id="education"></table>
                 </div>
             </div>
             <div class="accordion-body">

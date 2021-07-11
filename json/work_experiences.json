@@ -4,7 +4,7 @@
         "job_description": "Intern",
         "company_name":"LGU of San Jose del Monte Bulacan",
         "duration":"September 2019 - March 2020",
-        "tasks": ["a","b","c","d"]
+        "tasks": ["<br />a","<br />b","<br />c","<br />d"]
     },
     "work_2": {
         "logo": "sample-ntc-logo",

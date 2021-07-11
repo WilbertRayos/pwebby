@@ -19,7 +19,6 @@
             <li><a href="#" id="home" onclick="go_home()">Home</a></li>
             <li><a href="#" id="about" onclick="go_about()">About Me</a></li>
             <li><a href="#" id="certificates" onclick="go_certificates()">Certificates</a></li>
-            <li><a href="#" id="contacts" onclick="go_contacts()">contacts</a></li>
         </nav>
         <section id="main_section">
             <article>

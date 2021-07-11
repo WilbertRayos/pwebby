@@ -1,0 +1,11 @@
+{
+    "OS":{
+        "Windows":"90",
+        "Linux":"80"
+    },
+
+    "Programming Languages":{
+        "Python": "90",
+        "HTML": "85"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "primary": {
+        "logo":"logo-link",
+        "school_name":"Colegio de San Jose del Monte",
+        "grade":"Elementary",
+        "duration":"September 2019 - March 2020"
+    },
+
+    "secondary": {
+        "logo":"logo-link",
+        "school_name":"Colegio de San Jose del Monte",
+        "grade":"High School",
+        "duration":"September 2019 - March 2020"
+    },
+
+    "pre_tertiary": {
+        "logo":"logo-link",
+        "school_name":"Siena College",
+        "grade":"College",
+        "duration":"September 2019 - March 2020"
+    },
+
+    "tertiary": {
+        "logo":"logo-link",
+        "school_name":"FEU Institute of Technology",
+        "grade":"College",
+        "duration":"September 2019 - March 2020"
+    }
+
+}
